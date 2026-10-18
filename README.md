@@ -20,18 +20,4 @@ Open `index.html` in a browser. Keep the `assets` folder alongside the HTML file
 - Enquiry validation, review, editing, clipboard copying and text download.
 
 
-## Configuration
 
-Edit `assets/site-config.js`:
-
-- `heroVideo`: path to the local background film.
-- `contactEmail`: a real address to enable the email-app action.
-- `formEndpoint`: an HTTPS endpoint to enable direct enquiry delivery.
-
-Delivery is disabled until an email address or endpoint is configured. The local enquiry review, copy and download functions work independently. An endpoint should accept JSON fields `name`, `email`, `location`, `piece`, `timber`, `story`, `timing`, `website` and `preparedAt`, and return a successful status only after accepting the request. Keep credentials and server-side validation in the form service.
-
-Replace `assets/video/hero.mp4` and `assets/images/hero-poster.jpg` together when changing the film. Brand colors and type roles are defined at the start of `assets/styles.css`.
-
-## Content and credits
-
-This is a portfolio concept. Project stories and client words are illustrative. Media sources and font licenses are recorded in [CREDITS.md](CREDITS.md).
