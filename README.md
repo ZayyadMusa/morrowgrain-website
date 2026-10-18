@@ -19,9 +19,6 @@ Open `index.html` in a browser. Keep the `assets` folder alongside the HTML file
 - Responsive navigation, keyboard focus states, reduced motion and data-saving support.
 - Enquiry validation, review, editing, clipboard copying and text download.
 
-## Deploy on Vercel
-
-Import the repository into Vercel. The included `vercel.json` serves the root directory without a build command. No package installation is required.
 
 ## Configuration
 
